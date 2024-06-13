@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">pr_18</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="choose">Сохранить или загрузить</string>
+    <string name="open">Войти</string>
+    <string name="soxrlog">Сохранить логин</string>
+    <string name="soxrpass">Сохранить пароль</string>
+    <string name="soxr">Сохранить</string>
+    <string name="ysp">Успешно</string>
+    <string name="prodol">Продолжить</string>
+    <string name="zapysk">Запуск</string>
+    <string name="rolzap">Количество запусков</string>
+    <string name="afto">Авторизоваться</string>
+    <string name="vidr">Выбрать</string>
+    <string name="filmmm">Список фильмов</string>
+    <string name="filmnrav">Какой фильм вам больше всего понравился?</string>
+    <string-array name="films">
+        <item>Marvel</item>
+        <item>Человек-Паук</item>
+        <item>Головоломка</item>
+        <item>Как приручить дракона</item>
+        <item>Последний богатырь</item>
+    </string-array>
+</resources>

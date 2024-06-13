@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SingIn"
+    android:background="@drawable/ffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/afto"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginLeft="75dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/login"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/white">
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textSize="25sp"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="@string/choose"
+        android:onClick="coxr"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:onClick="next"
+        android:text="@string/open"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:id="@+id/soxrlog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/soxrlog"
+        android:textSize="25sp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/soxrpass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/soxrpass"
+        android:textSize="25sp"
+        android:textColor="@color/white">
+
+    </TextView>
+</LinearLayout>

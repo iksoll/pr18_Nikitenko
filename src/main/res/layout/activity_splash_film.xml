@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".SplashFilm"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/filmmm"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginLeft="100dp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="224dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="-60dp"
+        android:entries="@array/films"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:background="@color/white"
+        android:textAlignment="center">
+
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="301dp"
+        android:layout_height="246dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="spin"
+        android:text="@string/vidr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105">
+
+    </Button>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:text="Добавить коментарий к фильму"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105">
+
+    </Button>
+</LinearLayout>
